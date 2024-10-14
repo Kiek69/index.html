@@ -1,0 +1,61 @@
+Relatório: Criação e Implantação do index.html
+1. Introdução
+Esse relatório descreve como foi feita a criação e publicação da página index.html, que serve como a página inicial de um site. O foco foi criar uma página funcional e fácil de usar.
+
+2. Planejamento
+O objetivo da página é ser clara e simples, com um cabeçalho contendo o título e menu de navegação, uma seção principal com conteúdo sobre o site, e um rodapé com informações básicas.
+
+3. Desenvolvimento
+3.1 Estrutura
+O arquivo index.html segue a estrutura básica de um documento HTML5:
+
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Uma breve descrição do site.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+3.2 Estilização
+Foi criado um arquivo CSS simples (styles.css) para melhorar o visual, definindo cores, fontes e layout da página.
+
+3.3 Testes Locais
+A página foi testada localmente em diferentes dispositivos (PC, tablets, celulares) para garantir que fosse responsiva e funcionasse bem em todos.
+
+4. Implantação
+4.1 Publicação no Servidor
+Os arquivos foram enviados para um servidor web (Apache) via FTP. Também foi configurado o SSL para garantir que o site funcione via HTTPS.
+
+4.2 Testes em Produção
+Depois da publicação, o site foi testado online para verificar se estava tudo certo, incluindo a navegação e a responsividade.
+
+5. Conclusão
+A página index.html foi criada e publicada com sucesso. Ela está acessível ao público e funcionando bem. Próximos passos podem incluir melhorias como interatividade com JavaScript ou a integração com um sistema back-end.
+
+Esse resumo cobre os principais pontos da criação e publicação do site de forma mais leve e direta.
